@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Pribadi - Tugas EKSYA</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo">MyBlog</h1>
+                <ul class="nav-menu">
+                    <li><a href="#home" class="nav-link">Home</a></li>
+                    <li><a href="#blog" class="nav-link">Blog</a></li>
+                    <li><a href="#qrcode" class="nav-link">QR-Code</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <h2>Selamat Datang di Blog Pribadi Saya</h2>
+                <p>Dokumentasi Pembelajaran Kuliah di EKSYA - UIN MY</p>
+            </div>
+        </section>
+
+        <!-- Blog Posts Section -->
+        <section id="blog" class="blog-section">
+            <div class="container">
+                <h2>Blog Posts</h2>
+                <div class="blog-container" id="blogContainer">
+                    <!-- Blog posts akan di-load di sini -->
+                </div>
+            </div>
+        </section>
+
+        <!-- QR-Code Section -->
+        <section id="qrcode" class="qrcode-section">
+            <div class="container">
+                <h2>QR-Code untuk Blog Ini</h2>
+                <div class="qrcode-wrapper">
+                    <div id="qrcodeContainer" class="qrcode-container"></div>
+                    <p class="qrcode-text">Scan QR-Code ini untuk mengakses blog pribadi saya</p>
+                    <button id="downloadQR" class="btn-download">Download QR-Code</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Blog Pribadi - Tugas EKSYA UIN MY. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
